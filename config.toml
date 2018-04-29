@@ -1,12 +1,12 @@
 baseURL = "https://chi-chi-sticks.netlify.com/"
-languageCode = "en-us"
-title = "Minimal"
+languageCode = "th-th"
+title = "(: เซียมซีเสี่ยงทาย :)"
 theme = "minimal"
 googleAnalytics = ""
 
 [params]
-    author = "Calin Tataru"
-    description = "Personal blog theme powered by Hugo"
+    author = "ChiChi"
+    description = "เซียมซี คือ เครื่องทำนายโชคชะตาตามศาลเจ้าหรือวัด ลักษณะเป็นติ้วไม้ไผ่ มีหมายเลขกำกับใส่ในกระบอก ผู้เสี่ยงทายต้องเขย่าให้ร่วงจากกระบอกได้หมายเลขใดก็ไปดูคำทำนายใบเซียมซีหมายเลขนั้น."
     githubUsername = "#"
     accent = "red"
     showBorder = true
@@ -22,25 +22,15 @@ googleAnalytics = ""
     weight = 1
 
 [[menu.main]]
-    url = "/post/"
-    name = "Posts"
+    url = "/chi-chi-results/"
+    name = "Chi-Chi Sticks"
     weight = 2
-
-[[menu.main]]
-    url = "/project/"
-    name = "Projects"
-    weight = 3
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:me@example.com"
+    url = "chi.chi.sticks@gmail.com"
     name = "envelope-o"
     weight = 1
-
-[[menu.icon]]
-    url = "https://twitter.com/username/"
-    name = "twitter"
-    weight = 3
