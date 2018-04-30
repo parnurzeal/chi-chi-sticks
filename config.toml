@@ -1,36 +1,32 @@
-baseURL = "https://chi-chi-sticks.netlify.com/"
+# Site settings
+baseurl = "https://chi-chi-sticks.netlify.com/"
 languageCode = "th-th"
-title = "(: เซียมซีเสี่ยงทาย :)"
-theme = "minimal"
-googleAnalytics = ""
+title = "เซียมซีเสี่ยงทาย"
+theme = "hugrid"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-118785315-1"
+
+contentdir = "content"
+datadir = "data"
+layoutdir = "layouts"
+publishdir = "public"
 
 [params]
-    author = "ChiChi"
-    description = "เซียมซี คือ เครื่องทำนายโชคชะตาตามศาลเจ้าหรือวัด ลักษณะเป็นติ้วไม้ไผ่ มีหมายเลขกำกับใส่ในกระบอก ผู้เสี่ยงทายต้องเขย่าให้ร่วงจากกระบอกได้หมายเลขใดก็ไปดูคำทำนายใบเซียมซีหมายเลขนั้น."
-    githubUsername = "#"
-    accent = "red"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    # Meta
+    title = "ไม้เซียมซีเสี่ยงทาย"
+    subtitle = "เครื่องทำนายโชคชะตาตามศาลเจ้าหรือวัด ลักษณะเป็นติ้วไม้ไผ่ มีหมายเลขกำกับใส่ในกระบอก ผู้เสี่ยงทายต้องเขย่าให้ร่วงจากกระบอกได้หมายเลขใดก็ไปดูคำทำนายใบเซียมซีหมายเลขนั้น"
+    author = "Theeraphol Wattanavekin"
+    description = "Chi-Chi Sticks"
+    keywords = "Chi-Chi, horoscope, destiny, luck, charm, future, prediction"
 
-[[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
+    # Body background color
+    bodybgcolor = "#f9f9f9"
 
-[[menu.main]]
-    url = "/chi-chi-results/"
-    name = "Chi-Chi Sticks"
-    weight = 2
+    # Preview container button text
+    buttontext = "ดูเพิ่มเติม"
 
-# Social icons to be shown on the right-hand side of the navigation bar
-# The "name" field should match the name of the icon to be used
-# The list of available icons can be found at http://fontawesome.io/icons/
+    # Footer text
+    footertext = "สงวนลิขสิทธิ์ โดย Chi-Chi Sticks Thailand"
 
-[[menu.icon]]
-    url = "chi.chi.sticks@gmail.com"
-    name = "envelope-o"
-    weight = 1
+    # add extra-css
+    # custom_css = ['css/extra1.css', 'css/extra2.css']
