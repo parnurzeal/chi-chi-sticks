@@ -4,6 +4,6 @@
 [submodule "themes/minimal"]
 	path = themes/minimal
 	url = https://github.com/calintat/minimal.git
-[submodule "themes/hugrid"]
-	path = themes/hugrid
-	url = https://github.com/aerohub/hugrid
+[submodule "themes/hugrid2"]
+	path = themes/hugrid2
+	url = https://github.com/parnurzeal/hugrid2.git
